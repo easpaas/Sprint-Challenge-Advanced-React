@@ -5,7 +5,6 @@ import PlayerInfo from './PlayerInfo';
 
 
 const PlayerCard = (props) => {
-
   return (
     <div className="player-card">
       {
