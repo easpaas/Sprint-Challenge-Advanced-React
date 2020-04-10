@@ -2,7 +2,8 @@ import React from "react";
 import axios from 'axios';
 import "./App.css";
 
-import PlayerInfo from './components/PlayerInfo';
+import PlayerCard from "./components/PlayerCard";
+import Header from "./components/Header";
 
 class App extends React.Component {
   constructor() {
@@ -28,13 +29,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {
-          this.state.data.map(player => {
-            return (
-              <PlayerInfo key={player.id} name={player.name} country={player.country} />
-            )
-          })
-        }
+        <Header />
+        <PlayerCard data={this.state.data} />
       </div>
     );
   }

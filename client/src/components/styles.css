@@ -1,0 +1,23 @@
+.header {
+  border: 2px solid blue;
+  background-color: black;
+  color: white;
+}
+
+.player-card {
+  width: 90%;
+  margin: 5% auto;
+  background-color: black;
+  border: 4px solid blue;
+  color: blue;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.player-info {
+  border: 1px solid blue;
+}
