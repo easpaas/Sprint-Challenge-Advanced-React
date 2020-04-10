@@ -5,6 +5,7 @@ import "./App.css";
 import PlayerCard from "./components/PlayerCard";
 import Header from "./components/Header";
 
+
 class App extends React.Component {
   constructor() {
     super();
@@ -24,7 +25,6 @@ class App extends React.Component {
       })
       .catch(error => console.log(error))
   }
-
   
   render() {
     return (
