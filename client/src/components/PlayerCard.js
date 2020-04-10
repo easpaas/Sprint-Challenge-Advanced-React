@@ -8,7 +8,6 @@ const PlayerCard = (props) => {
 
   return (
     <div className="player-card">
-
       {
         props.data.map(player => {
           return (
