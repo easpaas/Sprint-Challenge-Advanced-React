@@ -3,8 +3,8 @@ import './styles.css';
 
 const PlayerInfo = ({name, country}) => {
   return(
-    <div className='container'>
-      <p>{name}</p>
+    <div className='player-info'>
+      <h3 style={{color: 'white'}}>{name}</h3>
       <p>{`${name} plays for ${country}.`}</p>
     </div>
   );
